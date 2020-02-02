@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Desk4U Home</h1>
+  <p>Welcome to Desk4U, a website developed by <em>Spscooti</em>!</p>
+  <h2>Select University</h2>
+  <p>The library has the following record counts:</p>
+  <ul>
+    <li><strong>Desks:</strong> {{ num_books }}</li>
+    <li><strong>All Desks:</strong> {{ num_instances }}</li>
+    <li><strong>Desks Available:</strong> {{ num_instances_available }}</li>
+  </ul>
+{% endblock %}
